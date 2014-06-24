@@ -12,6 +12,14 @@ buildscript {
     }
 }
 
+apply plugin: 'maven'
+
+uploadArchives {
+  repositories.mavenDeployer {
+    repository(url: "file:///Users/julian/code/test/miniature-duck")
+  }
+}
+
 allprojects {
     repositories {
         mavenCentral()
