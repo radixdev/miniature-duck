@@ -21,4 +21,21 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile ('com.radix:miniature-duck:+@aar'){
+//      transitive = true
+//    }
+//    compile 'com.mopub.mobileads:mopub-android:+@aar'
+}
+
+apply plugin: 'maven'
+uploadArchives {
+  repositories {
+    mavenDeployer {
+      repository(url: "file://" + rootProject.projectDir +"/duck-repo")
+//      repository(url: "file:///Users/julian/code/test/duck-repo")
+      pom.version = "1.0.0"
+      pom.artifactId = "miniature-duck"
+      pom.groupId = "com.radix"
+    }
+  }
 }

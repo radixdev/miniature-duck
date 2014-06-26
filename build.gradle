@@ -14,6 +14,8 @@ buildscript {
 
 allprojects {
   repositories {
+//    maven { url "http://minakov.github.io/mopub-sdk-android-aar" }
     mavenCentral()
+//    maven { url "https://github.com/radixdev/miniature-duck/raw/master/duckface/build/outputs/aar/duckface.aar"}
   }
 }
