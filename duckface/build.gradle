@@ -13,7 +13,7 @@ android {
     }
     buildTypes {
         release {
-            runProguard true
+            runProguard false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -33,7 +33,7 @@ uploadArchives {
     mavenDeployer {
       repository(url: "file://" + rootProject.projectDir +"/duck-repo")
 //      repository(url: "file:///Users/julian/code/test/duck-repo")
-      pom.version = "1.0.0"
+      pom.version = "1.0.1"
       pom.artifactId = "miniature-duck"
       pom.groupId = "com.radix"
     }
