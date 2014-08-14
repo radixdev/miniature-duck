@@ -4,6 +4,7 @@
   <artifactId>android-sdk-ui</artifactId>
   <version>1.4.3</version>
   <versioning>
+    <release>1.4.3</release>
     <versions>
       <version>1.4.3</version>
     </versions>
