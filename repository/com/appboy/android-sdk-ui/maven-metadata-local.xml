@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.appboy</groupId>
+  <artifactId>android-sdk-ui</artifactId>
+  <version>1.4.3</version>
+  <versioning>
+    <versions>
+      <version>1.4.3</version>
+    </versions>
+    <lastUpdated>20140814163700</lastUpdated>
+  </versioning>
+</metadata>
